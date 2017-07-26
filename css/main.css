@@ -95,20 +95,105 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* Background: */
+    background-image: linear-gradient(-138deg, #FF928A 0%, #760589 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.card {
+    /* Foreground: */
+    background: #FFFFFF;
+    box-shadow: 0 30px 50px 0 rgba(0,0,0,0.50);
+    border-radius: 9px;
+    min-height: 700px;
+    /*padding: 5px;*/
+    max-width: 800px;
+    margin: 20% auto;
+    text-align: center;
+}
 
 
+#avatar {
+    margin: -75px auto 8px;
+    display: inline-block;
+    padding: 1px;
+    vertical-align: bottom;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border: 5px solid #E7E7E7;
+    background: url("https://randomuser.me/api/portraits/lego/2.jpg") no-repeat center center;
+    background-size: contain;
+}
 
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    text-align: left;
+}
 
+.box {
+    display: block;
+    /*margin: 5%;*/
+    padding: 1em 2em 0 2em;
+    min-height: 200px; /* for dev */
+    text-align: left;
+    max-width: 400px;
+    float:left;
+}
 
+.portfolio p {
+    text-align: center;
+    margin: 5% auto;
+}
 
+.portfolio-item {
+    /* Rectangle 2: */
+    background: #F3F3F3;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.40);
+    border-radius: 12px;
+    margin: auto;
+    /*min-width: 500px;*/
+    height: 120px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
 
+}
 
+.portfolio-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.20);
+}
 
+.portfolio-item span {
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    text-shadow: #222222;
+}
 
+#portfolio-1 {
+    background: url("https://source.unsplash.com/user/chzenan/800x600") no-repeat center center;
+    background-size: 100% auto;
+}
 
-
-
-
+#portfolio-2 {
+    background: url("https://source.unsplash.com/user/chzenan/600x400") no-repeat center center;
+    background-size: 100% auto;
+}
 
 
 /* ==========================================================================
