@@ -207,6 +207,14 @@ body {
     background-size: 100% auto;
 }
 
+#pie {
+    display: block;
+    width: 100%;
+}
+
+.half {
+    width: 50%;
+}
 
 /* ==========================================================================
    Helper classes
